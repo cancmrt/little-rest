@@ -18,6 +18,7 @@ export class LittleRest {
   token = "";
   constructor(public http: Http) {
     console.log('Hello LittleRest Provider');
+    this.initToken();
   }
   doGet:any = function (url:any, login = false) {
     return  this.http.get(this.restAddress+url,{

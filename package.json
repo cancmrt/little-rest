@@ -1,6 +1,6 @@
 {
   "name": "little-rest",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Little restful api service for angular2",
   "main": "little-rest.js",
   "typings": "./little-rest.d.ts",
